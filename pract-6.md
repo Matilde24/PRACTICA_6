@@ -1,10 +1,10 @@
-### I. Visión general de la aplicación
+#### I. Visión general de la aplicación
 
 * El resultado debe seguir la siguiente lógica:
 
 <img src="Medio\imagen1.png/">
 
-### Tarea 1.1: Crear el proyecto con dos Activities
+#### Tarea 1.1: Crear el proyecto con dos Activities
 
 * Cree una app con las siguientes características:
 
@@ -25,7 +25,7 @@ Y luego de eso podemos ver la ingterfa del aplicación.
 
 <img src="Medio\imagen5.png/">
 
-### Cree la segunda Activity yendo al panel Project > Android y dar clic derecho sobre la carpeta app de su proyecto y dar a New > Activity > Empty Activity, nombre este activity como Segunda
+#### Cree la segunda Activity yendo al panel Project > Android y dar clic derecho sobre la carpeta app de su proyecto y dar a New > Activity > Empty Activity, nombre este activity como Segunda
 
 Como lo dice en el enunciado, vamos a dar clic derecho en la opción "app", luego de eso damos clic en "new", en donde se nos abrirá una nueva ventana en donde vamos a buscar la opción "Activity", de igual manera se nos desplegará una nueva venatana en la cual vamos a elegir la opción "Empty Activity".
 
@@ -35,7 +35,7 @@ Y una vez haciendo clic sobre la opción Empty Activity, nos enviará a una nuev
 
 <img src="Medio\imagen8.png/">
 
-### Use el mismo nivel de API y el lenguaje de programación Kotlin. Al final crearemos dos Activities con las siguientes características
+#### Use el mismo nivel de API y el lenguaje de programación Kotlin. Al final crearemos dos Activities con las siguientes características
 
 <img src="Medio\imagen9.png/">
 
@@ -43,14 +43,14 @@ Y una vez haciendo clic sobre la opción Empty Activity, nos enviará a una nuev
 
 ### Tarea 1.2: Diseñando la primera Activity
 
-### Detallando las propiedades del activity_main
+#### Detallando las propiedades del activity_main
 
 * Abra activity_main.xml desde el panel Proyecto > Android si aún no está abierto. Si la pestaña Design (diseño) aún no está seleccionada, haga clic en ella.
 
 <img src="Medio\imagen12.PNG/">
 <img src="Medio\imagen13.PNG/">
 
-### A continuación, se le presenta la estructura del activity, su trabajo será diseñar en base a lo mostrado, es posible que no obtenga el mismo diseño solicitado, pero se le recomienda explorar al momento de crear, es libre de diseñar a su manera, pero cuidando la estructura otorgada.
+#### A continuación, se le presenta la estructura del activity, su trabajo será diseñar en base a lo mostrado, es posible que no obtenga el mismo diseño solicitado, pero se le recomienda explorar al momento de crear, es libre de diseñar a su manera, pero cuidando la estructura otorgada.
 
 
 <img src="Medio\imagen11.png/">
@@ -75,7 +75,7 @@ Una vez que tenemos los TextView, debemos de asignarle un mensaje el cual se nos
 
 <img src="Medio\imagen19.PNG/">
 
-### Establezca la propiedad visibility a invisible a los TextView del activity_main, estos serán activados en el momento en que la segunda activity le mande un resultado, en primera instancia están ocultos.
+#### Establezca la propiedad visibility a invisible a los TextView del activity_main, estos serán activados en el momento en que la segunda activity le mande un resultado, en primera instancia están ocultos.
 
 Para establecer esta propiedad, buscamos la opción "Visibility", en la cassilla que se encuentra, desplegamos y elegimos la opción "Invisible", esto es para que el texto que hemos ingresado en el textView no se muestre siempre.
 
@@ -84,61 +84,61 @@ Para establecer esta propiedad, buscamos la opción "Visibility", en la cassilla
 
 <img src="Medio\imagen21.png/">
 
-### Establezca el evento onClick al botón del activity_main que tiene el identificador btEnviar, puede usar el siguiente código XML. Puede usar la corrección automática para generar el código correspondiente a este manejador de evento.
+#### Establezca el evento onClick al botón del activity_main que tiene el identificador btEnviar, puede usar el siguiente código XML. Puede usar la corrección automática para generar el código correspondiente a este manejador de evento.
 
 <img src="Medio\imagen22.PNG/">
 
-### En el caso de que no pueda generar el método a través de las correcciones automáticas, tiene la siguiente estructura
+#### En el caso de que no pueda generar el método a través de las correcciones automáticas, tiene la siguiente estructura
 
 <img src="Medio\imagen24.PNG/">
 
-### Agregando un Intent al MainActivity.kt
+#### Agregando un Intent al MainActivity.kt
 
 
 * Abra el fichero MainActivity.kt
 <img src="Medio\imagen26.PNG/">
 
-### Agregue un object companion dentro de la clase MainActivity, no dentro de algún método, este servirá para simular un objeto estático que no cambia el valor de sus propiedades en toda la aplicación. El valor EXTRA_MESSAGE nos servirá para la clave del extra en el intent.
+#### Agregue un object companion dentro de la clase MainActivity, no dentro de algún método, este servirá para simular un objeto estático que no cambia el valor de sus propiedades en toda la aplicación. El valor EXTRA_MESSAGE nos servirá para la clave del extra en el intent.
 
 <img src="Medio\imagen27.PNG/">
 
-### Agregue el siguiente código en el método lanzarSegundaActivity, relacionado a la creación de un intent.
+#### Agregue el siguiente código en el método lanzarSegundaActivity, relacionado a la creación de un intent.
 
 <img src="Medio\imagen28.PNG/">
 
-### Muestre el resultado en el momento en que la segunda activity fue lanzada
+#### Muestre el resultado en el momento en que la segunda activity fue lanzada
 
-### Regrese a la activity principal e indique que instancias del ciclo de vida del activity se han ejecutado
+#### Regrese a la activity principal e indique que instancias del ciclo de vida del activity se han ejecutado
 
-### Tarea 1.3: Compartiendo datos de Activity principal a la segunda
+#### Tarea 1.3: Compartiendo datos de Activity principal a la segunda
 
-### Agregue el siguiente código para enviar datos activities, debe reemplazar el código anterior del método lanzarSegundaActivity. Muetre los resultados.
+#### Agregue el siguiente código para enviar datos activities, debe reemplazar el código anterior del método lanzarSegundaActivity. Muetre los resultados.
 
 <img src="Medio\imagen29.png/">
 
-### Modificando la segunda activity para obtener los extras.
+#### Modificando la segunda activity para obtener los extras.
 
 * Abra el fichero Segunda.kt para agregar código al método onCreate()
 
 <img src="Medio\imagen30.png/">
 
-### Obtenga el intent que activó esta activity
+#### Obtenga el intent que activó esta activity
 
 <img src="Medio\imagen31.PNG/">
 
-### Obtenga la cadena que contiene el mensaje de los extras de Intent usando el valor del objeto creado en la activity principal y obtenerlo usando la clave MainActivity.EXTRA_MESSAGE:
+#### Obtenga la cadena que contiene el mensaje de los extras de Intent usando el valor del objeto creado en la activity principal y obtenerlo usando la clave MainActivity.EXTRA_MESSAGE:
 
 <img src="Medio\imagen32.PNG/">
 
-### Use findViewById() para obtener la referencia del TextView para el mensaje del layout.
+#### Use findViewById() para obtener la referencia del TextView para el mensaje del layout.
 
 <img src="Medio\imagen35.PNG/">
 
-### Establezca el texto del TextView con la cadena obtenida del extra del intent
+#### Establezca el texto del TextView con la cadena obtenida del extra del intent
 
 <img src="Medio\imagen34.PNG/">
 
-### Ejecute la aplicación. Cuando escriba el mensaje en el MainActivity, haga clic en el botón Enviar, se lanza la SegundaActivity y se muestra el mensaje
+#### Ejecute la aplicación. Cuando escriba el mensaje en el MainActivity, haga clic en el botón Enviar, se lanza la SegundaActivity y se muestra el mensaje
 
 * Muestre resultados a través de capturas de pantalla y comentarios
 
@@ -150,9 +150,52 @@ Una vez que se escribe el mensaje, damos clic en la opción "Enviar" y solo qued
 
 Y como podemos ver, si se nos ha mostrado el mensaje.
 
-### Tarea 1.4 Devolver datos al activity principal
+#### Tarea 1.4 Devolver datos al activity principal
 
 * Siga los siguientes pasos:
 
-### Abra el fichero activity_segunda.xml y verifique que dispone de la estructura indicada al principio de estas tareas con sus identificadores correspondientes.
+#### Abra el fichero activity_segunda.xml y verifique que dispone de la estructura indicada al principio de estas tareas con sus identificadores correspondientes.
+
+* Establezca el evento onClick al botón con identificador btRes, si lo hace en el XML lo puede realizar de esta manera:
+
+<img src="Medio\imagen36.PNG/">
+
+* Solamente queda crear el método devolverRespuesta(), el cual puede agregarlo después del cierre de llave del método onCreate()
+
+<img src="Medio\imagen40.png/">
+
+#### Crear respuesta del intent en la segunda Activity
+
+* Abre Segunda.kt por si aún no lo está
+
+<img src="Medio\imagen41.PNG/">
+
+##### Agrega un companion object para obtener una sola instancia de objeto sin necesidad de crear una nueva, esto se debe agregar después de la apertura de la llave de la clase Segunda, al inicio para no generar confusiones
+
+<img src="Medio\imagen42.PNG/">
+
+#### Agregue el código del método devolverRespuesta() creado en la tarea anterior
+
+<img src="Medio\imagen43.png/">
+
+#### Tarea 1.5: Obtener la respuesta en el MainActivity y mostrarlo en el TextView
+
+* Abra el fichero de MainActivity.kt
+
+<img src="Medio\imagen44.PNG/">
+
+* Borre o comente la línea de startActivity(intent) a startActivityForResult(intent, TEXT_REQUEST), recuerde que TEXT_REQUEST está dentro del companion object
+
+<img src="Medio\imagen45.png/">
+
+#### Pasaremos a anular el método onActivityResult(), vamos a Code > Override methods o simplemente CTRL + O, busque el método onActivityResult()
+
+<img src="Medio\imagen47.png/">
+
+#### Agregue el siguiente código a este método para obtener el extra y establecer en el TextView indicado para esto que se identifica con datoRecibido.
+
+<img src="Medio\imagen48.png/">
+
+#### Ahora cuando envíes datos de la segunda Activity hacia la principal, deberías de obtener el mensaje.
+
 
