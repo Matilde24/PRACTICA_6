@@ -132,7 +132,7 @@ Para establecer esta propiedad, buscamos la opción "Visibility", en la cassilla
 
 ### Use findViewById() para obtener la referencia del TextView para el mensaje del layout.
 
-<img src="Medio\imagen33.PNG/">
+<img src="Medio\imagen35.PNG/">
 
 ### Establezca el texto del TextView con la cadena obtenida del extra del intent
 
