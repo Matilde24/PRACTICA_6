@@ -142,3 +142,17 @@ Para establecer esta propiedad, buscamos la opción "Visibility", en la cassilla
 
 * Muestre resultados a través de capturas de pantalla y comentarios
 
+<img src="Medio\imagen39.jpg/">
+
+Una vez que se escribe el mensaje, damos clic en la opción "Enviar" y solo queda esperar el mensaje en la segunda interfaz.
+
+<img src="Medio\imagen38.jpg/">
+
+Y como podemos ver, si se nos ha mostrado el mensaje.
+
+### Tarea 1.4 Devolver datos al activity principal
+
+* Siga los siguientes pasos:
+
+### Abra el fichero activity_segunda.xml y verifique que dispone de la estructura indicada al principio de estas tareas con sus identificadores correspondientes.
+
