@@ -198,4 +198,19 @@ Y como podemos ver, si se nos ha mostrado el mensaje.
 
 #### Ahora cuando envíes datos de la segunda Activity hacia la principal, deberías de obtener el mensaje.
 
+<img src="Medio\imagen49.jpg/">
+
+<img src="Medio\imagen52.jpg/">
+
+
+<img src="Medio\imagen50.jpg/">
+
+
+<img src="Medio\imagen51.jpg/">
+
+
+
+#### Tarea 1.6: Crear el activity de Scrolling
+
+* Agregue un nuevo Activity dando clic derecho en la carpeta app o en res en el proyecto
 
